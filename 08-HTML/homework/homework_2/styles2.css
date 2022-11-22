@@ -1,0 +1,59 @@
+
+html {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.padre {
+    display: flex;
+    flex-direction: row;
+    margin:auto;
+    width: 700px;
+    height: 900px;
+    gap: 20px;
+    border: solid 2px black;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: rgb(160, 193, 255);
+    padding: 20px;
+}
+
+.divResto {
+    padding: 16px 20px;
+}
+
+
+.imagen img {
+    width: 200px;
+    border-radius: 50%;
+    border: solid 6px white;
+}
+
+.imagen {
+    border-bottom: solid 3px white;
+}
+
+h2 {
+    color:rgb(160, 193, 255);
+}
+
+.nombre {
+    color:White;
+}
+
+
+.formacion {
+    border-bottom: solid 3px rgb(160, 193, 255);
+}
+
+.experiencia {
+    border-bottom: solid 3px rgb(160, 193, 255);
+}
+
+.softSkills {
+    border-bottom: solid 3px rgb(160, 193, 255);
+}
+
